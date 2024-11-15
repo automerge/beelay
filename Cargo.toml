@@ -6,6 +6,7 @@ license = "Apache-2.0"
 repository = "https://github.com/automerge/beelay"
 rust-version = "1.80.1"
 version = "0.1.0-alpha.1"
+description = "A new sync protocol for Automerge"
 
 [dependencies]
 blake3 = "1.5.4"
