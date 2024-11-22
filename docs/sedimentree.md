@@ -114,7 +114,7 @@ A "commit" refers to the abstract idea of a node in the DAG which has a payload,
 
 Each straum has a "level". Stratum with higher levels are further down in the sedimentree - composed of larger ranges of the commit graph. The first level stratum is level 1.
 
-A stratum which contains the data from some strata or loose commits above it above it is said to "support" the smaller strata. A sedimentree can be simplified by removing all the strata or loose commits which are supported by strata below them recursively, such a simplified sedimentree is called "minimal".
+A stratum which contains the data from some strata or loose commits above it is said to "support" the smaller strata. A sedimentree can be simplified by removing all the strata or loose commits which are supported by strata below them recursively, such a simplified sedimentree is called "minimal".
 
 ## Constructing a Sedimentree
 
